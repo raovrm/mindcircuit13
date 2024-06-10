@@ -17,7 +17,7 @@ pipeline {
                 echo 'scanning project'
                 sh 'ls -ltr'
 				sh ''' mvn sonar:sonar \\
-                      -Dsonar.host.url=http://18.210.14.188:9000 \\
+                      -Dsonar.host.url=http://34.234.201.175:9000 \\
                       -Dsonar.login=squ_fe8682f9a992f6d8a3dbd48e93f79a23bfa0312f'''
             }  
         }
